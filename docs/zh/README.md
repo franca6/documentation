@@ -137,45 +137,45 @@ editLink: false
   </div>
   <div class="graphGuide layout mt80">
     <img src="/assets/img/graphGuideIcon.svg" />
-    <h3>Coming from the Graph?</h3>
-    <p>Welcome to the fastest and most feature rich indexer in web3, migrating is easy and should only take a few minutes.</p>
-    <router-link class="button buttonRed" :to="{path: '/build/graph-migration.html'}">Migrate Now!</router-link>
+    <h3>来自 The Graph？</h3>
+    <p>欢迎来到 web3 速度最快、特性最丰富的索引器，只需要花几分钟就能完成迁移，非常简单易懂，</p>
+    <router-link class="button buttonRed" :to="{path: '/build/graph-migration.html'}">现在迁移吧！</router-link>
   </div>
   <div class="advancedFeatures layout mt80">
-    <h3>Advanced Features from the Best Multi-chain Indexer</h3>
-    <p>We built the best, fully-featured indexer, so you don’t have to!</p>
+    <h3>最佳的多链索引器，极其丰富的高级特性</h3>
+    <p>我们创造了最好、特性最丰富的索引器，所以你不必再做一遍！</p>
     <div class="cardList">
       <router-link class="item" :to="{path: '/build/substrate-evm.html'}">
         <h5>EVM, WASM, Ethermint</h5>
-        <p>Supports most smart contract execution languages.</p>
+        <p>支持更多的智能合约开发语言。</p>
       </router-link>
       <router-link class="item" :to="{path: '/build/multi-chain.html'}">
-        <h5>Write once, run anywhere</h5>
-        <p>Large multichain support and your gateway to Polkadot.</p>
+        <h5>编写一次，随处运行</h5>
+        <p>多链支持，带你通往 Polkadot 的大门。</p>
       </router-link>
       <router-link class="item" :to="{path: '/build/optimisation.html'}">
-        <h5>Absolute performance</h5>
-        <p>Fast syncing and indexing optimisations.</p>
+        <h5>极致性能</h5>
+        <p>急速同步，索引优化。</p>
       </router-link>
       <router-link class="item" :to="{path: '/run_publish/query.html'}">
-        <h5>The power of GraphQL</h5>
-        <p>Filtering, subscriptions, aggregation &#8212; all the features that you need.</p>
+        <h5>强大的 GraphQL</h5>
+        <p>筛选、订阅、聚合 —— 只要是你需要的。</p>
       </router-link>
       <router-link class="item" :to="{path: '/run_publish/historical.html'}">
-        <h5>Faster reindexing</h5>
-        <p>Automated historical state tracking means you can reindex partial data faster.</p>
+        <h5>更快地重建索引</h5>
+        <p>自动历史状态追踪，更快重新索引部分数据。</p>
       </router-link>
       <router-link class="item" :to="{path: '/build/optimisation.html'}">
-        <h5>Lightweight and portable</h5>
-        <p>Doesn’t require an extremely costly archive, connect directly to any RPC.</p>
+        <h5>轻量，可移植</h5>
+        <p>无需极其昂贵的存档空间，直接连接到任何 RPC 服务。</p>
       </router-link>
     </div>
   </div>
   <div class="textImageSection layout mt80">
     <div class="ct">
-      <h3>Want a More in Depth Learning Experience?</h3>
-      <p>We have detailed, step by step learning course. Follow video tutorials alongside real world examples.</p>
-      <router-link class="button" :to="{path: '/academy/herocourse/welcome.html'}">Start your Course</router-link>
+      <h3>想要一个更深入的体验吗？</h3>
+      <p>我们有详细的，逐步深入的学习课程。请跟随视频教程，体验真实示例。</p>
+      <router-link class="button" :to="{path: '/academy/herocourse/welcome.html'}">开始您的课程</router-link>
     </div>
     <img src="/assets/img/depth_learning.svg" />
   </div>
